@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+    font-weight: 700;
+}
+.img {
+  width: 150px;
+  border: 0px solid white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+  font-size: 14px;
+  font-weight: 700;
+}
+.life-info {
+  background-color: blanchedalmond;
+  border: 2px solid blanchedalmond;
+  border-radius: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.table {
+  width: 100%;
+  
+  text-align: left;
+  padding-left: 12px;
+}
+.table td:nth-child(1){
+  background: #f1f1f1;
+}
+.link1 {
+  text-decoration: none;
+  color: #0f141e;
+}
+.link1:active{
+    color: brown;
+    border-bottom: 1px solid black;
+}
+.link1:hover{
+color:blue;
+}
+.link1:visited{
+    color: aquamarine;
+}
+.btn {
+    background-color: #918787;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+    font-family: inherit;
+    cursor: pointer;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  margin-left: 12px;
+}
+.card{
+  display: flex;
+  margin-bottom: 14px;
+}
+.card-info{
+  margin-left: 14px;
+}
+.contact{
+  width: 100%;
+}
+.group-info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.group-card{
+  display: flex;
+  flex-direction: column;
+  
+}
+#name , #email{
+border: none;
+border-bottom: 1px solid gray;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+#message{
+  border: none;
+border-bottom: 1px solid gray;
+width: 100%;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+/* #email{
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 12px;
+} */
